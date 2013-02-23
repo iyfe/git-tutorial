@@ -25,3 +25,8 @@ history
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.co checkout 
+git remote add origin https://github.com/iyfe/git-tutorial.git
+git push -u origin master
+git mv newfile.txt tutorial  #move / rename file 
+git ci -m "log message"
+git push
