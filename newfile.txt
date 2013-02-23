@@ -1,2 +1,14 @@
 touch newfile.txt
 git init 
+#edited newfile.txt, saved it 
+git add newfile.txt
+git status 
+git help commit 
+git commit
+#popped up vim , used i to insert and esc to exit and :wq to save and quit 
+git log#to show commit history
+# in vim , dd cuts current line and p pastes it below 
+git show c0ea93c9739a6c6d0cf38a7bffaa8f6fa2dc9fa8 # from git log 
+git status #nothing to commit 
+vim newfile.txt #updated instruction , documentation 
+ 
