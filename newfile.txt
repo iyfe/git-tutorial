@@ -11,4 +11,17 @@ git log#to show commit history
 git show c0ea93c9739a6c6d0cf38a7bffaa8f6fa2dc9fa8 # from git log 
 git status #nothing to commit 
 vim newfile.txt #updated instruction , documentation 
- 
+cat newfile.txt 
+git status
+git diff
+git status
+git add newfile.txt 
+git commit
+git config --global user.name "Iyfe Ukachukwu"
+git config --global user.email icukachuk@gmail.com
+git commit --amend --reset-author
+git log
+history
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.co checkout 
